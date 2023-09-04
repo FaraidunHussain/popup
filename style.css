@@ -1,0 +1,14 @@
+body {
+                background-color: chocolate;
+                color: azure;
+                width: 500px;
+                height: 500px;
+                box-sizing: border-box;
+                margin: auto;
+            }
+            .container {
+                position: fixed;
+                padding-top: 30px;
+                align-items: center;
+                font-size: 22px;
+            }

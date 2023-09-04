@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document popup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+     <div class="div" id="div">
+    <div class="prompt">THANKS, IM POPUP</div>
+        <button onclick="closeDiv()">CLOSE</button> 
+        </div>
+        <button onclick="openDiv()">POPUP</button>
+<script>
+    function openDiv() {
+        get = document.getElementById('div')
+        get.style.display = 'block'
+    }
+    function closeDiv() {
+        get = document.getElementById('div')
+        get.style.display = 'none'
+    }
+</script>
+</body>
+</html>
